@@ -1,0 +1,7 @@
+name: cb-setup-reviewer
+description: ChainBreaker lab demo action. Harmless.
+runs:
+  using: composite
+  steps:
+    - run: echo "cb-setup-reviewer (demo)"
+      shell: bash
